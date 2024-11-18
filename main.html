@@ -6,85 +6,75 @@
     <title>Tables in Tables</title>
 </head>
 <body>
-
-    <!-- Main Table -->
-    <table border="1">
-        <caption>Main Table</caption>
+    <table border="1" cellpadding="5" cellspacing="0">
         <tr>
-            <td>
-                <!-- Nested Table 1 -->
-                <table border="1">
-                    <caption>Nested Table 1</caption>
+            <td colspan="2">
+                <table border="1" cellpadding="5" cellspacing="0">
                     <tr>
+                        <th>Nested Table 1</th>
                         <th>Column 1</th>
                         <th>Column 2</th>
                     </tr>
                     <tr>
+                        <td>Row 1</td>
                         <td>Data 1</td>
                         <td>Data 2</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <!-- Nested Table 2 -->
-                <table border="1">
-                    <caption>Nested Table 2</caption>
-                    <tr>
-                        <th>Column 1</th>
-                        <th>Column 2</th>
-                    </tr>
-                    <tr>
-                        <td>Data 3</td>
-                        <td>Data 4</td>
                     </tr>
                 </table>
             </td>
         </tr>
         <tr>
             <td>
-                <!-- Nested Table 3 with List -->
-                <table border="1">
-                    <caption>Nested Table 3</caption>
+                <table border="1" cellpadding="5" cellspacing="0">
                     <tr>
+                        <th>Nested Table 2</th>
                         <th>Column 1</th>
                         <th>Column 2</th>
                     </tr>
                     <tr>
-                        <td>Item A</td>
-                        <td>Item B</td>
+                        <td>Row 1</td>
+                        <td style="background-color: black; color: white;">HTML</td>
+                        <td>Data</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <th>Nested Table 3</th>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <!-- List inside a cell -->
+                        <td>Row 1</td>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <th>Nested Table 4</th>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                    </tr>
+                    <tr>
+                        <td>
                             <ul>
                                 <li>List item 1</li>
                                 <li>List item 2</li>
                                 <li>List item 3</li>
                             </ul>
                         </td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <!-- Nested Table 4 with Background Color -->
-                <table border="1">
-                    <caption>Nested Table 4</caption>
-                    <tr>
-                        <th>Column 1</th>
-                        <th>Column 2</th>
-                    </tr>
-                    <tr>
-                        <td>Data 5</td>
-                        <td>Data 6</td>
-                    </tr>
-                    <tr>
-                        <td style="background-color: black; color: white;">HTML</td>
-                        <td>Data 7</td>
+                        <td>Data</td>
+                        <td>Data</td>
                     </tr>
                 </table>
             </td>
         </tr>
     </table>
-
 </body>
 </html>
